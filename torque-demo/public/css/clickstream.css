@@ -1,0 +1,34 @@
+html, body, #map, #content {
+  height: 100%;
+}
+
+#content {
+	background: none;
+	z-index: 1000;
+	position: relative;
+}
+
+#content > h1,
+#time {
+	color: #fff;
+}
+
+#content > h1 {
+	float: right;
+	text-align: right;
+	right: 0;
+	margin: 1em;
+}
+
+#sub {
+	position: absolute;
+	bottom: 0;
+	margin: 1em;
+}
+
+#time {
+	margin-right: 1em;
+	display: inline-block;
+}
+
+

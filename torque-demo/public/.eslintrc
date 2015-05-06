@@ -1,0 +1,19 @@
+{
+    "ecmaFeatures": {
+    },
+    "env": {
+        "browser": true,
+        "node": true
+    },
+    "rules": {
+        "quotes": [2, "single"],
+        "no-reserved-keys": 2,
+        "block-scoped-var": 2,
+        "default-case": 2,
+        "guard-for-in": 2,
+        "no-floating-decimal": 2,
+        "radix": 2,
+        "vars-on-top": 2,
+        "wrap-iife": 2
+    }
+}
